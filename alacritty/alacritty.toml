@@ -1,0 +1,19 @@
+# ~/.config/alacritty/alacritty.toml
+general.import = [
+
+  "~/.config/alacritty/themes/themes/nightfly.toml"
+]
+
+[window]
+decorations = "none"       # remove title bar
+padding.x = 16
+padding.y = 14
+opacity = 0.85# transparency
+option_as_alt = "Both"
+
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+size = 11.5
+
+[colors.primary]
+foreground = "#FFFFFF"
